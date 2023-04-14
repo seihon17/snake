@@ -47,7 +47,7 @@ public class BoardDrawing extends JPanel {
         //for(int i = 1;i <= bs.returnMaxPlayers();i++)
         //    bs.players.add(new Player(i));
         //get and add player(s) names
-System.err.println("jk");
+
         cells = new ArrayList<Rectangle>();
 
         cellnos = new int[row * col];

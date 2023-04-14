@@ -26,8 +26,7 @@ public class WelcomeScreen extends JPanel {
  */
     public void setTitle(String t) {
         title.setText(t);
-        System.err.println("jk");
-
+        
     }
 
     public void quitButtonActionListener() {

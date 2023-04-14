@@ -23,8 +23,7 @@ public class CustomizeBoardScreen extends JPanel {
 
     public void goButtonActionListener() {
         mw.showCard("Four");
-        System.err.println("jk");
-
+        
     }
 /**
  * 
