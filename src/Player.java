@@ -43,6 +43,8 @@ public class Player {
  */
     public void setPlayerColor(Color c) {
         playerColor = c;
+        System.err.println("jk");
+
     }
 
     public Color getPlayerColor() {

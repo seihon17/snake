@@ -28,6 +28,8 @@ public class MainWindow extends JFrame {
  */
     public void showCard(String cardName) {
         cl.show(cards, cardName);
+        System.err.println("jk");
+
     }
 
     public void resetAll() {

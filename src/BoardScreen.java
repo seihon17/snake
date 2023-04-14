@@ -79,6 +79,7 @@ public class BoardScreen extends JPanel {
         if (2 < returnMaxPlayers()) {
             players.get(2).setPlayerColor(Color.red);
         }
+System.err.println("jk");
 
     }
 /**

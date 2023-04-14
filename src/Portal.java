@@ -20,6 +20,8 @@ public class Portal {
         end = luck.nextInt(maxCells);
         if (start < end) {
             nature = 1;
+            System.err.println("jk");
+
         } else {
             nature = -1;
         }

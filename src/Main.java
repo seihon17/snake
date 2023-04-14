@@ -13,6 +13,8 @@ public class Main {
                 mw.setSize(600, 400);
                 mw.setTitle("Snake and Ladder");
                 mw.setVisible(true);
+                System.err.println("jk");
+
             }
         });
     }
