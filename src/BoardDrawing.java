@@ -42,7 +42,6 @@ public class BoardDrawing extends JPanel {
 
         this.row = row;
         this.col = col;
-        //player = 0;
         //bs.players = new ArrayList<Player>();
         //for(int i = 1;i <= bs.returnMaxPlayers();i++)
         //    bs.players.add(new Player(i));
