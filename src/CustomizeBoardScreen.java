@@ -6,7 +6,10 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
+/**
+ * 
+ * @author paseihon
+ */
 //needs massive improvements
 public class CustomizeBoardScreen extends JPanel {
 
@@ -21,7 +24,10 @@ public class CustomizeBoardScreen extends JPanel {
     public void goButtonActionListener() {
         mw.showCard("Four");
     }
-
+/**
+ * 
+ * @param mw 
+ */
     public CustomizeBoardScreen(MainWindow mw) {
         this.mw = mw;
 

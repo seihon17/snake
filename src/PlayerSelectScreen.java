@@ -41,7 +41,10 @@ public class PlayerSelectScreen extends JPanel {
         }
         mw.s4.setMaxPlayers(m);
     }
-
+/**
+ * 
+ * @param mw 
+ */
     public PlayerSelectScreen(MainWindow mw) {
         this.mw = mw;
 

@@ -1,13 +1,19 @@
 
 import java.awt.Point;
 import java.util.Random;
-
+/**
+ * 
+ * @author paseihon
+ */
 public class Portal {
 
     private int nature; //-1 for snake , +1 for ladder
     private int start;
     private int end;
-
+/**
+ * 
+ * @param maxCells 
+ */
     public Portal(int maxCells) {   //creates random portals
         Random luck = new Random();
         start = luck.nextInt(maxCells);
